@@ -1,0 +1,39 @@
+{
+  "name": "nbm-climate-kit",
+  "version": "0.1.0",
+  "description": "Parse NOAA National Blend of Models (NBM) station text bulletins and compute NWS climate-day highs/lows on local standard time.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "weather",
+    "noaa",
+    "nbm",
+    "national-blend-of-models",
+    "nws",
+    "climate",
+    "forecast",
+    "temperature"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vitest": "3.2.4"
+  },
+  "author": "Joseph Salhi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vazyvazy123/nbm-climate-kit.git"
+  }
+}
